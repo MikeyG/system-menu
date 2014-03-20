@@ -1,1 +1,9 @@
-{"shell-version": ["3.10.4"], "uuid": "Misc_System_Menu@mikeos2.gmail.com", "name": "Misc System Menu", "description": "Add some misc items to panel"}
+{
+  "description": "Add some misc items to panel",
+  "name": "Misc System Menu", 
+  "shell-version": ["3.10.4"],
+  "original-author": "mikeos2@gmail.com",
+  "uuid": "Misc_System_Menu@mikeos2.gmail.com", 
+  "url": "https://github.com/MikeyG/system-menu",
+  "version": 1
+}
