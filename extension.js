@@ -29,6 +29,13 @@ function _showHello() {
                        onComplete: _hideHello });
 }
 
+
+function widget_initliaze() {
+    // do nothing
+}
+
+
+
 // Initalize the extension
 function init() {
     button = new St.Bin({ style_class: 'panel-button',
