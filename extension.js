@@ -1,4 +1,3 @@
-
 const St = imports.gi.St;
 const Main = imports.ui.main;
 const Tweener = imports.ui.tweener;
@@ -30,6 +29,7 @@ function _showHello() {
                        onComplete: _hideHello });
 }
 
+// Initalize the extension
 function init() {
     button = new St.Bin({ style_class: 'panel-button',
                           reactive: true,
@@ -44,10 +44,12 @@ function init() {
     button.connect('button-press-event', _showHello);
 }
 
+// Ensable the extension
 function enable() {
     Main.panel._rightBox.insert_child_at_index(button, 0);
 }
 
+// Disable the extension
 function disable() {
     Main.panel._rightBox.remove_child(button);
 }
