@@ -37,7 +37,8 @@ function widget_initliaze() {
 
 
 // Initalize the extension
-function init() {
+function init(metadata) {
+    // metadata.path  where the hell is metadata explained?
     button = new St.Bin({ style_class: 'panel-button',
                           reactive: true,
                           can_focus: true,
